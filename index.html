@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    </head>
+  <body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Amir Tahar <span>Amiour</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Accueil</a>
+            <a href="#about">À propos</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Compétences</a>
+            <a href="#projects">Projets</a>
+        </nav>
+        <a href="#contact" class="gradient-btn">Me contacter</a>    </header>
+    <section class="home" id="home">
+        <div class="home-glow"></div>
+
+        <div class="home-content">
+            <span class="greeting">Bonjour, je suis</span>
+            <h1 class="hero-name">AMIR</h1>
+            <h3>
+                <span class="text-animation">Développeur Web</span>
+            </h3>
+            <p>
+                Passionné par le développement web, je suis actuellement développeur back-end en alternance chez <span>Hager Group</span> et étudiant en MBA Développement Full-Stack. Je conçois des solutions performantes et fiables.
+            </p>
+            
+            <div class="home-actions">
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Me contacter</a>
+                    <a href="#projects" class="btn secondary">Mes Projets</a>
+                </div>
+                
+                <div class="social-icons">
+                    <a href="https://github.com/amiramiour" target="_blank"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/amir-tahar-amiour-79b64a292/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-glow"></div>
+
+        <div class="about-container">
+            <h2 class="heading">À propos de <span>Moi</span></h2>
+
+            <div class="status-badge">
+                <span class="pulse-dot"></span>
+                <p>À la recherche d'un CDI : Développeur Backend / Fullstack</p>
+            </div>
+
+            <p class="about-text">
+                Curieux, motivé et toujours prêt à apprendre, j’aime relever de nouveaux défis et travailler sur des projets concrets. 
+                Je suis quelqu’un de rigoureux qui aime comprendre en profondeur le fonctionnement des systèmes et améliorer ce qu’il construit.
+                En dehors du code, je m’intéresse au sport, aux voyages et à la veille technologique.
+            </p>
+
+            <div class="about-actions">
+                <a href="mon-cv.pdf" download class="btn">
+                    <i class='bx bxs-download'></i> Télécharger mon CV
+                </a>
+                <a href="#" class="btn secondary" id="readMoreBtn">
+                    En savoir plus
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="timeline-section" id="journey">
+    <h2 class="heading">Expériences <span>Professionnelles</span></h2>        
+        <div class="timeline">
+
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3 class="date">09/2024 - Actuel</h3>
+                    <h4>Développeur Back-end en alternance</h4>
+                    <p>Hager Group – Paris (Contrat d'apprentissage)</p>
+                    <ul>
+                        <li>Développer des fonctionnalités back-end en PHP sur Magento.</li>
+                        <li>Développer des scripts d'import et d'export des données du catalogue.</li>
+                        <li>Participer à l'intégration et au paramétrage de la plateforme.</li>
+                        <li>Assurer une veille technologique afin d'améliorer les performances.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3 class="date">04/2024 - 06/2024</h3>
+                    <h4>Développeur Full-Stack (Stage)</h4>
+                    <p>A2MI Informatique – La Rochelle</p>
+                    <ul>
+                        <li>Concevoir et développer la plateforme extranet de l'entreprise en PHP.</li>
+                        <li>Développer des fonctionnalités back-end et gérer la logique métier.</li>
+                        <li>Assurer l'intégration, la configuration et la maintenance de la plateforme.</li>
+                        <li>Optimiser les performances et la sécurité de l'application.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <h2 class="heading">Mes <span>Formations</span></h2>
+
+        <div class="education-container">
+            <div class="edu-box" data-tilt>
+                <i class='bx bxs-graduation'></i>
+                <div class="edu-content">
+                    <span class="year">2024 - 2026</span>
+                    <h3>MBA : Développement Full-Stack</h3>
+                    <p>MyDigitalSchool - Paris</p>
+                    <p class="desc">Formation orientée développement full-stack, projets web, architectures modernes et bonnes pratiques.</p>
+                </div>
+            </div>
+            <div class="edu-box" data-tilt>
+                <i class='bx bxs-graduation'></i>
+                <div class="edu-content">
+                    <span class="year">2022 - 2024</span>
+                    <h3>Licence : Informatique</h3>
+                    <p>Université de La Rochelle</p>
+                    <p class="desc">Bases solides en informatique : programmation, algorithmique, bases de données et développement web.</p>
+                </div>
+            </div>
+            <div class="edu-box" data-tilt>
+                <i class='bx bxs-graduation'></i>
+                <div class="edu-content">
+                    <span class="year">2020 - 2022</span>
+                    <h3>Cycle Préparatoire : Mathématique et Informatique</h3>
+                    <p>École Supérieure en Science et Technologie de l'Informatique et du Numérique - Algérie</p>
+                    <p class="desc">Formation préparatoire axée sur les mathématiques, l’informatique et les bases de la programmation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <h2 class="heading">Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code"></i>
+                    <h4>Frontend Integration</h4>
+                    <p>
+                        Intégration d’interfaces web propres et responsives à partir de maquettes, avec une attention particulière portée à la structure et à la lisibilité du code.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-code-curly"></i>
+                    <h4>Backend Development</h4>
+                    <p>
+                        Développement de fonctionnalités back-end, gestion de la logique métier, des bases de données et des API, avec un focus sur la performance, la fiabilité et la sécurité.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <i class="bx bx-laptop"></i>
+                    <h4>Web Applications</h4>
+                    <p>
+                        Conception et développement d’applications web complètes, de l’intégration front-end au back-end, avec des solutions adaptées aux besoins du projet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">Compétences <span>Techniques</span></h2>
+
+        <div class="skills-container">
+            
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-code-alt'></i> Frontend</h3>
+                <div class="skill-content">
+                    <span>React.js</span>
+                    <span>Next.js</span>
+                    <span>Vue.js</span>
+                    <span>Tailwind CSS</span>
+                    <span>DSFR</span>
+                    <span>Vite</span>
+                    <span>HTML5 / CSS3</span>
+                    <span>Bootstrap</span>
+                    <span>WordPress</span>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-server'></i> Backend</h3>
+                <div class="skill-content">
+                    <span>Node.js</span>
+                    <span>Symfony</span>
+                    <span>Magento</span>
+                    <span>REST API</span>
+                    <span>GraphQL</span>
+                    <span>Microservices</span>
+                    <span>Prisma ORM</span>
+                </div>
+            </div>
+
+            <!-- Mobile -->
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-mobile-alt'></i> Mobile</h3>
+                <div class="skill-content">
+                    <span>Flutter</span>
+                    <span>Android Studio</span>
+                </div>
+            </div>
+
+            <!-- Database -->
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-data'></i> Bases de données</h3>
+                <div class="skill-content">
+                    <span>PostgreSQL</span>
+                    <span>MySQL</span>
+                    <span>MongoDB</span>
+                    <span>Firebase</span>
+                    <span>Oracle</span>
+                </div>
+            </div>
+
+            <!-- DevOps -->
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-rocket'></i> DevOps</h3>
+
+                <div class="skill-content">
+                    <span>Docker</span>
+                    <span>Docker Compose</span>
+                    <span>Traefik</span>
+                    <span>GitHub Actions</span>
+                    <span>Prometheus</span>
+                    <span>Grafana</span>
+                    <span>k6</span>
+                    <span>VPS Deployment</span>
+                </div>
+            </div>
+
+            <!-- Architecture -->
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-sitemap'></i> Architecture</h3>
+                <div class="skill-content">
+                    <span>Agile / SCRUM</span>
+                    <span>POO</span>
+                    <span>Clean Arch</span>
+                    <span>Clean Code</span>
+                    <span>UML</span>
+                </div>
+            </div>
+
+            <!-- Network & Security -->
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-shield-quarter'></i> Security</h3>
+                <div class="skill-content">
+                    <span>OSI/TCP/IP</span>
+                    <span>VLAN & Routage</span>
+                    <span>Cryptographie</span>
+                    <span>Firewalls</span>
+                    <span>Wireshark</span>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-box" data-tilt>
+                <h3><i class='bx bx-wrench'></i> Tools</h3>
+                <div class="skill-content">
+                    <span>Git / GitHub</span>
+                    <span>Postman</span>
+                    <span>Figma</span>
+                    <span>VS Code</span>
+                    <span>IntelliJ</span>
+                    <span>Linux (Kali/Ubuntu)</span>
+                    <span>Docker</span>
+                    <span>Traefik</span>
+                    <span>Prometheus</span>
+                </div>
+            </div>
+            <div class="skill-box" data-tilt>
+            <h3><i class='bx bx-cloud'></i> Infrastructure</h3>                <div class="skill-content">
+                    <span>Reverse Proxy</span>
+                    <span>SSL</span>
+                    <span>Load Testing</span>
+                    <span>Monitoring</span>
+                    <span>Server Deployment</span>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    
+    <section class="projects" id="projects">
+        <h2 class="heading">Projets</h2>
+        
+        <div class="projects-box">
+            
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <img src="project1.png" alt="LinkyJob">
+                        <h3>LinkyJob</h3>
+                        <p>LinkyJob est une plateforme qui met en relation des étudiants internationaux et des employeurs pour des missions adaptées partout en France.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Détails Techniques</h3>
+                        <p>Développement d’une application web couvrant tout le parcours utilisateur, de la découverte des offres à la gestion des candidatures.</p>                        <ul class="tech-stack">
+                            <li>React (Vite)</li>
+                            <li>Node.js (API REST)</li>
+                            <li>MySQL</li>
+                            <li>Docker / Prometheus / Grafana</li>
+                            <li>Tests de performance (k6)</li>
+                            </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <img src="project2.png" alt="P10 App">
+                        <h3>P10 App</h3>
+                        <p>P10 App est une application de paris autour de la Formule 1, offrant la possibilité de rejoindre des ligues et de suivre les courses en direct.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Fonctionnalités</h3>
+                        <p>Système de points en temps réel et création de ligues privées.</p>
+                    <ul class="tech-stack">
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>GraphQL</li>
+                            <li>PostgreSQL</li>
+                            <li>Docker</li>
+                            <li>API Formula 1</li>
+                        </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <img src="project3.png" alt="Stage Connect">
+                        <h3>Stage Connect</h3>
+                        <p>Une plateforme destinée au Ministère de l’Éducation pour simplifier la collaboration entre les lycées professionnels et les entreprises.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Contexte</h3>
+                        <p>Projet institutionnel pour fluidifier l'insertion professionnelle.</p>
+                            <ul class="tech-stack">
+                                <li>Vite</li>
+                                <li>TypeScript</li>
+                                <li>Node.js</li>
+                                <li>MySQL</li>
+                                <li>Docker</li>
+                                <li>Tailwind CSS / DSFR</li>
+                            </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <img src="project4.png" alt="Artisans">
+                        <h3>Artisans</h3>
+                        <p>Plateforme web de mise en relation entre particuliers et artisans, permettant de rechercher des professionnels selon différents critères.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Détails</h3>
+                        <p>Plateforme permettant la recherche de professionnels, la consultation de profils et la prise de contact.</p>
+                        <ul class="tech-stack">
+                            <li>JavaScript (Frontend & Backend)</li>
+                            <li>Node.js (API)</li>
+                            <li>Base de données</li>
+                            <li>API REST</li>
+                        </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <img src="project5.png" alt="Virus Simulation">
+                        <h3>Virus Compagnon</h3>
+                        <p>Conception d’un outil de simulation pour observer et analyser la propagation d’un virus et les stratégies de défense.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Simulation</h3>
+                        <p>Modélisation mathématique (SIR) et visualisation graphique.</p>
+                        <ul class="tech-stack">
+                            <li>C</li>
+                            <li>Algorithmique</li>
+                            <li>Data Analysis</li>
+                        </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <img src="project6.png" alt="Covid Sentiment">
+                        <h3>Covid Sentiment</h3>
+                        <p>Outil d’analyse de sentiments appliqué à des messages liés au Covid, identifiant automatiquement la polarité des opinions.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>IA & NLP</h3>
+                        <p>Entraînement et évaluation de modèles de classification de sentiments sur un dataset de tweets liés au Covid.</p>                    <ul class="tech-stack">
+                            <li>Python</li>
+                            <li>NLTK</li>
+                            <li>Scikit-learn</li>
+                            <li>Machine Learning</li>
+                            <li>Dataset de tweets</li>
+                        </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <div class="img-placeholder"><i class='bx bx-shopping-bag'></i></div>
+                        <h3>E-Shop</h3>
+                        <p>Plateforme de commerce en ligne offrant une expérience d’achat complète, de la navigation jusqu’à la commande.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>E-Commerce</h3>
+                        <p>Gestion panier, paiement Stripe et Back-office admin.</p>
+                        <ul class="tech-stack">
+                            <li>Flutter</li>
+                            <li>Firebase</li>
+                            <li>Organisation du code par couches</li>
+                            <li>Pipeline d’intégration continue</li>
+                        </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <div class="img-placeholder"><i class='bx bxs-school'></i></div>
+                        <h3>Système Scolaire</h3>
+                        <p>Plateforme de gestion académique pour administrer filières, étudiants, modules et notes avec comptes utilisateurs.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Administration</h3>
+                        <p>Gestion complète des entités scolaires (étudiants, filières, modules, semestres, notes) avec génération de données de test.</p>
+                        <ul class="tech-stack">
+                            <li>PHP / Symfony</li>
+                            <li>Base de données relationnelle</li>
+                            <li>Doctrine ORM</li>
+                            <li>Formulaires & CRUD</li>
+                            <li>Fixtures (Faker / Foundry)</li>
+                        </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-inner">
+                    <div class="project-front">
+                        <div class="img-placeholder"><i class='bx bxs-graduation'></i></div>
+                        <h3>Alumni Platform</h3>
+                        <p>Plateforme Alumni sécurisée permettant à une école de gérer ses anciens étudiants, leurs comptes et leurs données académiques via un backoffice administrateur.</p>
+                        <div class="btn btn-flip">Détails</div>
+                    </div>
+                    <div class="project-back">
+                        <h3>Administration</h3>
+                        <p>Système d’authentification fermé (invitation uniquement), gestion des rôles (admin, staff, alumni) et import massif d’utilisateurs.</p>
+                        <ul class="tech-stack">
+                            <li>Next.js (App Router)</li>
+                            <li>React + TypeScript + Tailwind CSS</li>
+                            <li>Supabase (PostgreSQL)</li>
+                            <li>Row Level Security (RLS)</li>
+                            <li>Docker</li>
+                        </ul>
+                        <div class="btn btn-back">Retour</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <h3 class="btm">Et aussi des contributions sur d’autres projets (open-source et académiques)...</h3>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">Me <span>Contacter</span></h2>
+        
+        <div class="contact-info-container">
+            <div class="contact-card">
+                <div class="icon-box">
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="info-text">
+                    <h3>Email</h3>
+                    <a href="mailto:amiouramirtahar17@gmail.com">amiouramirtahar17@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="icon-box">
+                    <i class='bx bxs-phone'></i>
+                </div>
+                <div class="info-text">
+                    <h3>Téléphone</h3>
+                    <a href="tel:+33758610456">+33 7 58 61 04 56</a>
+                </div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="icon-box">
+                    <i class='bx bxs-map'></i>
+                </div>
+                <div class="info-text">
+                    <h3>Localisation</h3>
+                    <p>Paris, France</p>
+                </div>
+            </div>
+        </div>
+
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="hidden" style="display: none;">
+                <label><input name="bot-field" /></label>
+            </p>
+
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="name" placeholder="Nom complet" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="phone" placeholder="Téléphone (Optionnel)">
+                    <input type="text" name="subject" placeholder="Sujet">
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="message" placeholder="Votre message" cols="30" rows="10" required></textarea>
+                <button type="submit" class="btn">Envoyer le message</button>
+            </div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="social-icons">
+                <a href="https://github.com/amiramiour" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/amir-tahar-amiour-79b64a292/" target="_blank" rel="noopener noreferrer">
+                    <i class="bx bxl-linkedin-square"></i>
+                </a>
+            </div>
+            <ul class="list">
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#about">À propos</a>
+                </li>
+                <li>
+                    <a href="#projects">Projets</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+    </footer>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <div id="about-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <h2>Informations <span>personnelles</span></h2>
+        
+        <div class="modal-grid">
+            <div class="modal-col">
+                <h3><i class='bx bx-user'></i> Ma Philosophie</h3>
+                <p>"Le code n'est pas juste des lignes, c'est la solution à un problème."</p>
+                <p>Je m'efforce de créer des interfaces intuitives et performantes, en mettant toujours l'expérience utilisateur au centre de mes priorités.</p>
+            </div>
+
+            <div class="modal-col">
+                <h3><i class='bx bx-world'></i> Langues</h3>
+                <ul class="modal-list">
+                    <li><span>Français</span> <span class="level">Courant</span></li>
+                    <li><span>Anglais</span> <span class="level">Courant</span></li>
+                    <li><span>Arabe</span> <span class="level">Bilingue</span></li>
+                </ul>
+            </div>
+
+            <div class="modal-col">
+                <h3><i class='bx bx-brain'></i> Savoir-être</h3>
+                <div class="tags">
+                    <span>Travail d'équipe</span>
+                    <span>Autonomie</span>
+                    <span>Gestion du temps</span>
+                    <span>Curiosité</span>
+                    <span>Communication</span>
+                </div>
+            </div>
+            
+            <div class="modal-col">
+            <h3><i class='bx bx-joystick'></i> Hobbies</h3>
+            <div class="hobbies-icons">
+                <div class="hobby-item">
+                    <i class='bx bx-run'></i>
+                    <span>Judo</span>
+                </div>
+                <div class="hobby-item">
+                    <i class='bx bx-dumbbell'></i>
+                    <span>Musculation</span>
+                </div>
+                <div class="hobby-item">
+                    <i class='bx bx-world'></i>
+                    <span>Voyages</span>
+                </div>
+                <div class="hobby-item">
+                    <i class='bx bx-music'></i>
+                    <span>Musique</span>
+                </div>
+                <div class="hobby-item">
+                <i class='bx bx-store'></i> <span>Mode</span>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
